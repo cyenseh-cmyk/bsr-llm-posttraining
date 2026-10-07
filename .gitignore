@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Hugging Face / caches
+.cache/
+huggingface/
+hf_cache/
+
+# Experiment logs
+wandb/
+runs/
+
+# Large model/checkpoint files
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+
+# Temporary files
+*.tmp
+*.log
